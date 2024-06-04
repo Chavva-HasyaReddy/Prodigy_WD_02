@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Stopwatch </title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="head">Created by Hasya</h1>
+    </nav>
+    <div class="container">
+        <div class="display d-flex flex-column justify-content-center ">
+            <h1>Digital Stop Watch</h1>
+            <div id="time">00:00:00</div>
+            <button id="start" onclick="startStopwatch()"><img src="http://premieroffshore.com/wp-content/uploads/2015/11/start-button.jpg" id="startimg" height="50px" width="50px"></button>
+            <button id="stop" onclick="stopStopwatch()"><img src="http://clipart-library.com/images/6ip5aL6pT.jpg" id="stopimg" height="50px" width="50px"></button>
+            <button id="lap" onclick="lapTime()"><img src="https://www.pngmart.com/files/22/Stopwatch-PNG-Isolated-File.png" height="50px" width="50px"></button>
+            <button id="reset" onclick="resetStopwatch()"><img src="https://tse3.mm.bing.net/th?id=OIP.wSHx15TZBvSKP0i4bckvhwHaF7&pid=Api&P=0&h=180" height="50px" width="50px"></button>
+        </div>
+        <ul id="laps"></ul>
+    </div>
+    <footer><h1 class="head">Made with Passion</h1></footer>
+    <script src="script2.js"></script>
+</body>
+</html>
